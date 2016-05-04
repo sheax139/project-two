@@ -1,0 +1,301 @@
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('../fonts/Lato-Black.ttf');
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+   font-family: Lato-Black;
+   color: rgb(188,190,192); 
+   font-size: 32px;
+   letter-spacing: .04em;
+   padding-left: 40px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+h2 {
+   font-family: Lato-Black;
+   color: rgb(188,190,192); 
+   font-size: 24px;
+   letter-spacing: .02em;
+   padding-left: 40px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+h3 {
+   font-family: Lato-Black;
+   color: rgb(188,190,192); 
+   font-size: 16px;
+   letter-spacing: .02em;
+   text-align: center;
+}
+
+p {
+   font-family: Lato-Regular;
+   color: rgb(188,190,192); 
+   font-size: 14px; 
+   
+   padding-left: 40px;
+}
+
+.nav {
+    width: 100%;
+    height: 108px;
+    background-color: rgb(169,124,80);
+    position: fixed;
+    z-index: 2;
+}
+
+.nav-home {
+    width: 250px;
+    position: relative;
+    float: left;
+}
+
+.nav-logo {
+    padding-left: 40px;
+    margin-top: 45px;
+}
+
+.nav-buttons {
+    width: 700px;
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: 63px;
+}
+
+.links {
+    font-family: Lato-Black;
+    letter-spacing: .06em;
+    display: inline;
+    text-decoration: none;
+    color: rgb(188,190,192);
+    padding-right: 30px;
+}
+
+#sign-up {
+    color: rgb(169,124,80);
+    background-color: rgb(188,190,192);
+    padding-top: 63px;
+    padding-bottom: 26px;
+    padding-left: 30px;
+}
+
+.orderbanner {
+    height: 450px;
+    background-image: url("../images/order-image.jpg");
+    background-repeat: no-repeat;
+    position: center center;
+}
+
+.orderbanner h1 {
+   margin-top: 0px;
+   padding-top: 325px;
+   margin-bottom: 0px;
+}
+
+.orderbanner img {
+    padding-top: 10px;
+    padding-left: 37px;
+}
+
+.comfort {
+    padding-left: 37px;
+}
+
+.emotion {
+    padding-left: 59px;
+}
+
+.emotions {
+    margin-bottom: 100px;
+}
+
+.about {
+    height: 640px;
+    background-image: url("../images/table-image.jpg");
+    background-repeat: no-repeat;
+    position: center center;
+}
+
+.about h1 {
+   margin-top: 0px;
+   padding-top: 520px;
+   margin-bottom: 10px;
+}
+
+.about img {
+    padding-left: 37px;
+}
+
+.services img {
+    padding-left: 37px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(169,124,80);
+    margin-top: 100px;
+}
+
+.selection {
+    width: 100%;
+    height: 130px;
+    padding-top: 130px;
+}
+
+#accordion .comfort {
+    background: linear-gradient(
+      rgba(169,124,80, 0.3), 
+      rgba(169,124,80, 0.3)
+    ),
+    url("../images/comfort-dropdown.jpg");
+    height: 150px;
+    padding: 0px;
+}
+
+#accordion .comfort.ui-accordion-header-active {
+    background-image: url("../images/comfort-dropdown.jpg");
+}
+
+#accordion .energy {
+    background: linear-gradient(
+      rgba(169,124,80, 0.3), 
+      rgba(169,124,80, 0.3)
+    ),
+    url("../images/energy-dropdown.jpg");
+    height: 150px;
+    padding: 0px;
+}
+
+#accordion .energy.ui-accordion-header-active {
+    background-image: url("../images/energy-dropdown.jpg");
+}
+
+#accordion .bliss {
+    background: linear-gradient(
+      rgba(169,124,80, 0.3), 
+      rgba(169,124,80, 0.3)
+    ),
+    url("../images/bliss-dropdown.jpg");
+    
+    height: 150px;
+    padding: 0px;
+}
+
+#accordion .bliss.ui-accordion-header-active {
+    background-image: url("../images/bliss-dropdown.jpg");
+}
+
+#accordion .calm {
+    background: linear-gradient(
+      rgba(169,124,80, 0.3), 
+      rgba(169,124,80, 0.3)
+    ),
+    url("../images/calm-dropdown.jpg");
+    height: 150px;
+    padding: 0px;
+}
+
+#accordion .calm.ui-accordion-header-active {
+    background-image: url("../images/calm-dropdown.jpg");
+}
+
+#accordion .affection {
+    background: linear-gradient(
+      rgba(169,124,80, 0.3), 
+      rgba(169,124,80, 0.3)
+    ),
+    url("../images/affection-dropdown.jpg"); 
+    height: 150px;
+    padding: 0px;
+}
+
+#accordion .affection.ui-accordion-header-active {
+    background-image: url("../images/affection-dropdown.jpg");
+}
+
+.ui-accordion .ui-accordion-header {
+    margin: 0px;
+}
+
+.recipes {
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.recipe {
+    width: 100%;
+    padding-top: 150px;
+    margin-left: 0px;
+}
+
+.recipe h2 {
+    margin-top: 0px;
+}
+
+.recipe img {
+    padding-left: 40px;
+}
+
+.recipe p {
+    width: 450px;
+    padding-top: 10px;
+}
+
+.recipe .choice {
+    padding-left: 0px;
+}
+
+.submitbutton {
+    padding-left: 40px;
+    margin-top: 30px;
+    border: none;
+}
+
+input {
+    font-family: Lato-Black;
+    color: rgb(188,190,192);
+    background-color: rgb(169,124,80);
+    padding: 10px;
+    border: 0px;
+    font-size: 14px;
+    cursor: auto;
+}
+
+input:hover {
+    background-color: rgb(187,79,34);
+}
+
+.comfortmeals h3 {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.comfortinfo {
+    width: 100%;
+    padding-top: 150px;
+    margin-left: 0px;
+}
+
+.comfortinfo img {
+    padding-left: 40px;
+}
+
+.comfortinfo p {
+    width: 450px;
+    padding-top: 10px;
+}
+
+.comfortmeals h3:hover {
+    color: rgb(187,79,34);
+}
